@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Native window theme, separate from the Compose MaterialTheme in Theme.kt. This is what
+         paints the window background before/around anything Compose draws - values-night/themes.xml
+         provides the dark counterpart so it tracks system dark mode instead of staying hardcoded
+         light (see implementation_plan.md history: a hardcoded Theme.Material.Light caused a
+         persistent light strip behind the top app bar in dark mode). -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#FFF9F9FC</item>
+        <item name="android:navigationBarColor">#FFF9F9FC</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

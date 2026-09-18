@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The app's own Icons.Default.GraphicEq glyph (Material equalizer bars), same shape used in
+     EditorScreen's empty-state icon, tinted with CoralPrimary - see ui/theme/Color.kt. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:pathData="M37.8,50.4 h3.6 v7.2 h-3.6 z"
+        android:fillColor="#FF6E4A" />
+    <path
+        android:pathData="M45.0,43.2 h3.6 v21.6 h-3.6 z"
+        android:fillColor="#FF6E4A" />
+    <path
+        android:pathData="M52.2,36.0 h3.6 v36.0 h-3.6 z"
+        android:fillColor="#FF6E4A" />
+    <path
+        android:pathData="M59.4,43.2 h3.6 v21.6 h-3.6 z"
+        android:fillColor="#FF6E4A" />
+    <path
+        android:pathData="M66.6,50.4 h3.6 v7.2 h-3.6 z"
+        android:fillColor="#FF6E4A" />
+
+</vector>

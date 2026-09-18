@@ -1,0 +1,36 @@
+# Gradle / Android build output
+.gradle/
+.kotlin/
+.cxx/
+app/.cxx/
+build/
+app/build/
+*.apk
+*.aab
+*.ap_
+
+# Local machine config (SDK paths etc.)
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Signing material
+*.jks
+*.keystore
+keystore.properties
+
+# Tooling state
+.claude/
+
+# Reference / investigation material: pulled stock ringtones, downloaded ONNX models,
+# analysis scratch files. Copyrighted or license-restricted - never commit.
+/.model-cache/
+# Includes app/src/main/assets/adtof_frame_rnn.onnx: third-party CC BY-NC-SA weights, not
+# redistributed here - see README "Drum model" for how to obtain it.
+*.onnx
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.m4a
